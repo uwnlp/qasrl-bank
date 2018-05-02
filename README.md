@@ -113,8 +113,11 @@ beginning, and appending a question mark will always yield the `questionString` 
 All of the fields below `answerJudgments` in a `QuestionLabel` are automatically, deterministically
 computed using the question's `sentenceTokens`, `verbInflectedForms`, and `questionString`.
 
-It is equivalent to predict all seven `questionSlots` and to predict all but `aux` and `verb` and
-then to predict the five grammatical fields, `tense`, `isPerfect`, `isProgressive`, `isNegated`, and
+The following two prediction tasks are equivalent:
+
+* Predicting all seven `questionSlots`
+* Predicting all `questionSlots` except `aux` and `verb`, and then 
+then predicting the five grammatical fields, `tense`, `isPerfect`, `isProgressive`, `isNegated`, and
 `isPassive`.
 
 The terminals are defined as follows:
