@@ -8,7 +8,7 @@ then
     case ${answer:0:1} in
         y|Y )
             curl -o data/qasrl-v2.tar http://qasrl.org/data/qasrl-v2.tar
-            tar xf data/qasrl-v2.tar -C data
+            tar xf data/qasrl-v2.tar
             rm data/qasrl-v2.tar
             ;;
         * )
