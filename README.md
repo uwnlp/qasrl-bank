@@ -1,3 +1,10 @@
+# Moved
+
+The QA-SRL Bank 2.0, client library, and other related resources are now all maintained in one
+place, at [julianmichael/qasrl](https://github.com/julianmichael/qasrl).
+
+---
+
 # The QA-SRL Bank
 
 This repository is the reference point for *QA-SRL Bank 2.0*,
